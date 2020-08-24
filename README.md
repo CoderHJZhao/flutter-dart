@@ -2,9 +2,9 @@
 flutter-dart安装配置笔记
 
 
-1、去官网下载flutterSDK，网站地址：[https://flutterchina.club/](https://note.youdao.com/)
-2、解压SDK包到你想要放置的地址，如～ or 文稿 or /Applications
-3、环境变量配置:MacOS环境变量配置
+1、去官网下载flutterSDK，网站地址：[https://flutterchina.club/](https://note.youdao.com/)<br/>
+2、解压SDK包到你想要放置的地址，如～ or 文稿 or /Applications<br/>
+3、环境变量配置:MacOS环境变量配置<br/>
 
 ```
 vim ~/.bash_profile（进入配置文件，i为输入 ESC 输入：wq为退出）
