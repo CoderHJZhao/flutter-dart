@@ -10,7 +10,7 @@ flutter-dart安装配置笔记
 vim ~/.bash_profile（进入配置文件，i为输入 ESC 输入：wq为退出）
 
 添加flutter环境变量一下语句：
-export FLUTTER_HOME=/Applications/flutter（为你放置flutter的文件夹地址）
+export FLUTTER_HOME=flutter所在位置（为你放置flutter的文件夹地址）
 export PATH=$PATH:$FLUTTER_HOME/bin
 export PATH=$PATH:$FLUTTER_HOME/bin/cache/dart-sdk/bin
 
