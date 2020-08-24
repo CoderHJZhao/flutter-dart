@@ -26,7 +26,7 @@ flutter doctor
 
 ```
 4、关于VSCode插件的安装<br/>
-1.fluuter（必须）<br/>
+1.flutter（必须）<br/>
 2.dart（必须）<br/>
 3.code runner（运行插件，可右键运行程序和使用快捷键）<br/>
 4.运行前必须保存代码，否则会报错：<br/>
