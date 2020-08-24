@@ -25,4 +25,3 @@ dart --version
 flutter doctor
 
 ```
-3、如果遇到
