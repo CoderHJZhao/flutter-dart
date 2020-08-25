@@ -5,17 +5,17 @@ flutter-dart安装配置笔记
 1、去官网下载flutterSDK，网站地址：[https://flutterchina.club/](https://note.youdao.com/)<br/>
 2、解压SDK包到你想要放置的地址，如～ or 文稿 or /Applications<br/>
 3、环境变量配置:MacOS环境变量配置<br/>
-vim ~/.bash_profile（进入配置文件，i为输入 ESC 输入：wq为退出）
+vim ~/.bash_profile（进入配置文件，i为输入 ESC退出 :wq 为保存退出）
 
 > 添加flutter环境变量一下语句：
-export FLUTTER_HOME=flutter所在位置（为你放置flutter的文件夹地址）
 ```objc
+export FLUTTER_HOME=flutter文件夹地址（为你放置flutter的文件夹地址）
 export PATH=$PATH:$FLUTTER_HOME/bin
 export PATH=$PATH:$FLUTTER_HOME/bin/cache/dart-sdk/bin
 ```
 > 添加dart环境变量：
 ```objc
-export PATH=${PATH}:/Users/aries/Flutter/flutter/bin/cache/dart-sdk/bin
+export PATH=${PATH}:flutter文件夹地址/bin/cache/dart-sdk/bin
 ```
 flutter项目会依赖一些东西，在国内下载这些依赖会有一些慢，所以我们可以将它们的安装源换成国内的（也就是设置国内的镜像）
 macOS或者Linux操作系统，依然是编辑~/.bash_profile文件
@@ -27,8 +27,9 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter
 注意： 此镜像为临时镜像，并不能保证一直可用，大家可以参考详情请参考 [https://flutter.dev/community/china](https://note.youdao.com/) 以获得有关镜像服务器的最新动态。
 
 保存后退出，并在终端输入：
+```objc
 source ~/.bash_profile  //更新配置文件
-
+```
 检测是否配置成功：
 ```
 dart --version
